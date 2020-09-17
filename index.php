@@ -4,6 +4,7 @@
     	<title>App Mail Send</title>
 
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="all.min.css">
 
 	</head>
 
@@ -36,6 +37,10 @@
 								<label for="mensagem">Mensagem</label>
 								<textarea name='mensagem' class="form-control" id="mensagem"></textarea>
 							</div>
+							<!-- <div class="form-group">
+								<label for="attachment">Escolha um arquivo para enviar em anexo </label>
+									<input type="file" name="attachment" id="attachment" class='form-control-file'> 
+							</div> -->
 
 							<button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
 						</form>
